@@ -127,7 +127,7 @@ const SkillsSection = () => {
                 {group.skills.map((skill, skillIndex) => (
                     <li key={skillIndex} className="flex items-center space-x-3">
                     <img
-                      src={`./Baptiste-portfolio/${skill.logo}`}
+                      src={`${import.meta.env.BASE_URL}${skill.logo}`}
                       alt={skill.name}
                       className="w-6 h-6 object-contain"
                     />
