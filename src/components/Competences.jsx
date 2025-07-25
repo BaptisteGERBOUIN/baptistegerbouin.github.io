@@ -21,9 +21,9 @@ const SkillsSection = () => {
         category: "Data Science & IA",
         icon: <BarChart2 size={20} className="text-green-500" />,
         skills: [
-        { name: "Machine Learning", logo: <img src="public/ml.svg" alt="logo" /> },
-        { name: "Deep Learning", logo: <img src="public/dl.svg" alt="logo" /> },
-        { name: "Data Visualization", logo: <img src="public/dataviz.svg" alt="logo" /> }
+        { name: "Machine Learning", logo: "ml.svg" },
+        { name: "Deep Learning", logo: "dl.svg" },
+        { name: "Data Visualization", logo: "dataviz.svg" }
         ]
     },
     {
@@ -127,10 +127,11 @@ const SkillsSection = () => {
                 {group.skills.map((skill, skillIndex) => (
                     <li key={skillIndex} className="flex items-center space-x-3">
                     <img
-                        src={`/${skill.logo}`}
-                        alt={skill.name}
-                        className="w-6 h-6 object-contain"
+                      src={`${import.meta.env.BASE_URL}${skill.logo}`}
+                      alt={skill.name}
+                      className="w-6 h-6 object-contain"
                     />
+
                     <span className="text-gray-800 dark:text-gray-200">{skill.name}</span>
                     </li>
                 ))}
