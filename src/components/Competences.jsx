@@ -21,7 +21,7 @@ const SkillsSection = () => {
         category: "Data Science & IA",
         icon: <BarChart2 size={20} className="text-green-500" />,
         skills: [
-        { name: "Machine Learning", logo: "ml.svg" },
+        { name: "Machine Learning", logo: "../dist/ml.svg" },
         { name: "Deep Learning", logo: "dl.svg" },
         { name: "Data Visualization", logo: "dataviz.svg" }
         ]
