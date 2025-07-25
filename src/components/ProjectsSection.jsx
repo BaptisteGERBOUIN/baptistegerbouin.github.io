@@ -40,11 +40,13 @@ const ProjectsSection = () => {
             key={index} 
             className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700 transition-transform hover:scale-[1.02]"
           >
-            <img 
-              src={project.image} 
-              alt={project.title}
-              className="w-full h-48 object-cover"
-            />
+            {project.image && (
+              <img 
+                src={`${import.meta.env.BASE_URL}${project.image}`} 
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
+            )}
 
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{project.title}</h3>
