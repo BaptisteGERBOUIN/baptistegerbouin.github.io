@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "Dashboard intéractif pour explorer les données de l'API Open Data Singapore",
       description: "Visualisations dynamiques sur l’Éducation, le Logement et l’Économie via Plotly & Dash. Modèle prédictif du prix de revente d’un appartement HDB en temps réel. Statistiques générées automatiquement par dataset. Design responsive adapté desktop/mobile.",
       tags: ["Dash", "Plotly", "Catboost", "Render", "Gunicorn"],
-      image: "/singapore.png",
+      image: "singapore.png",
       github: "https://github.com/Hisqkq/Open-Data-Singapore?tab=readme-ov-file",
     },
     {
