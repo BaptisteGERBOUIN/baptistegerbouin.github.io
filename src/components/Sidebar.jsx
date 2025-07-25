@@ -33,7 +33,7 @@ const Sidebar = ({ darkMode, setDarkMode, activeSection, setActiveSection }) => 
         <div className="flex justify-center">
           <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-green-500 dark:border-green-600 shadow-lg">
             <img
-              src="/moi.jpg"
+              src="./public/moi.jpg"
               alt="Baptiste Gerbouin"
               className="w-full h-full object-cover"
             />
