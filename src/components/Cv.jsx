@@ -344,7 +344,7 @@ const ResumeSection = () => {
       
       <div className="mt-8 text-center">
         <a 
-          href="/public/CV_BaptisteGerbouin.pdf" 
+          href="/CV_BaptisteGerbouin.pdf" 
           className="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg shadow-lg font-medium transition-colors"
         >
           Télécharger mon CV complet
