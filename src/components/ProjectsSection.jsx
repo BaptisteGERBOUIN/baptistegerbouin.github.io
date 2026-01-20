@@ -11,19 +11,35 @@ const ProjectsSection = () => {
       github: "https://github.com/Hisqkq/Open-Data-Singapore?tab=readme-ov-file",
     },
     {
-      title: "Application de Gestion de Projets",
-      description: "Outil collaboratif avec tableaux Kanban et gestion de tâches",
-      tags: ["Vue.js", "Firebase", "Tailwind CSS"],
+      title: "CARREFOUR - Défi IA : Prédiction de réachat de produits",
+      description: "Recommandation de produit pour les clients CARREFOUR via Machine Learning",
+      tags: ["Python", "LSTM", "Parquet", "LightGBM"],
+      image: "carrefour.png",
     },
     {
-      title: "Système d'Analyse de Données",
-      description: "Visualisation de données complexes en temps réel",
-      tags: ["Python", "D3.js", "Flask", "PostgreSQL"],
+      title: "Deep Learning et Classification d’images",
+      description: "Classification d'images pour la détection automatisée d'éoliennes sous PyTorch",
+      tags: ["PyTorch", "CNN", "Tansfert Learning", "ResNet", "Data Augmentation"],
+      image: "eolienne.png"
     },
     {
-      title: "Application Mobile de Fitness",
-      description: "Suivi d'entraînements personnalisés avec IA",
-      tags: ["React Native", "TensorFlow.js", "GraphQL"],
+      title: "Visualisation interactive des ressources en eau via APIs Hub'eau & MongoDB",
+      description: "Développement d'un pipeline d'extraction automatisé via les APIs Hub'eau (flux JSON/GeoJSON) avec optimisation des paramètres de requêtage. Mise en place et gestion d'une base de données MongoDB pour le stockage de données hétérogènes et volumineuses. Création d'un dashboard interactif (Python/Dash/Plotly) incluant des cartographies dynamiques et des indicateurs de performance des services d'eau.",
+      tags: ["Python", "JSON", "GeoJson", "API", "MongoDB", "Dash"],
+      image: "map_quantity.png",
+      github: "https://github.com/BaptisteGERBOUIN/French-water-resources-analysis-platform",
+    },
+    {
+      title: "Implémentation d'un agent autonome par Apprentissage par Renforcement",
+      description: "Développement d'un modèle d'apprentissage par renforcement appliqué au Morpion et Puissance 4 via la méthode de Monte Carlo Tree Search",
+      tags: ["Reinforcement Learning", "Monte Carlo", "Tree Search", "Python"],
+      image: "MCTS.png",
+    },
+    {
+      title: "Architecte de Base de Données & Dashboard Interactif (Modèle MVC)",
+      description: "Architecture et optimisation d'une base de données relationnelle complexe : modélisation 3NF, vues dynamiques et interface de dashboarding.",
+      tags: ["MVC", "SQL / PostGreSQL", "Formes Normales", "Automatisation"],
+      image: "bddproject.png",
     },
   ];
 
